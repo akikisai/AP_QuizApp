@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AP_QuizApp">
         <activity
+            android:name=".Activity_choose_themes2"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_choose_themes1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
