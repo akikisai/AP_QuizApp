@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AP_QuizApp">
         <activity
-            android:name=".Activity_choose_themes2"
+            android:name=".Activity_finish"
             android:exported="true" />
         <activity
-            android:name=".Activity_choose_themes1"
+            android:name=".Activity_question"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Activity_choose_themes"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

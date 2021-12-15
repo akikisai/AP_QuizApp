@@ -7,7 +7,7 @@
     <string name="btn_rule">ルール</string>
     <string name="btn_rule_text">ルール説明</string>
 
-    <!-- Activity2 and 3 -->
+    <!-- Activity2 -->
     <string name="themes_choose">テーマ選択</string>
     <string name="next">次へ</string>
     <string name="t1">基礎理論</string>
@@ -22,25 +22,14 @@
     <string name="t10">マネジメント</string>
     <string name="t11">ストラテジ</string>
 
-    <!-- Activity4 -->
+    <!-- Activity3 -->
     <string name="correct_counter">正解数</string>
 
-    <!-- Activity5 -->
+    <!-- Activity4 -->
     <string name="encouragement">お疲れさまでした</string>
     <string name="correct_rate">正解率</string>
     <string name="btn_redo">やり直し</string>
     <string name="btn_select_another">他のテーマへ</string>
-
-
-
-
-
-
-
-
-
-
-
 
 
 </resources>
