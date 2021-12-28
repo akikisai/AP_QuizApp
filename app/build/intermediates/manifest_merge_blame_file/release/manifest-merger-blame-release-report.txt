@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="jp.sai.ap_quizapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:5:5-30:19
+12        android:allowBackup="true"
+12-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\saifs\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:extractNativeLibs="false"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/Theme.AP_QuizApp" >
+19-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:11:9-48
+20        <activity
+20-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:12:9-14:39
+21            android:name="jp.sai.ap_quizapp.Activity_finish"
+21-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:13:13-44
+22            android:exported="true" />
+22-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:14:13-36
+23        <activity
+23-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:15:9-17:39
+24            android:name="jp.sai.ap_quizapp.Activity_question"
+24-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:16:13-46
+25            android:exported="true" />
+25-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:17:13-36
+26        <activity
+26-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:18:9-20:39
+27            android:name="jp.sai.ap_quizapp.Activity_choose_themes"
+27-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:19:13-51
+28            android:exported="true" />
+28-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:20:13-36
+29        <activity
+29-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:21:9-29:20
+30            android:name="jp.sai.ap_quizapp.MainActivity"
+30-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:22:13-41
+31            android:exported="true" >
+31-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:23:13-36
+32            <intent-filter>
+32-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:24:13-28:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:25:17-69
+33-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:27:17-77
+35-->C:\Users\saifs\StudioProjects\AP_QuizApp\app\src\main\AndroidManifest.xml:27:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>
