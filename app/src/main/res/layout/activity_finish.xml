@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/orenji"
     tools:context=".Activity_finish">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
@@ -16,6 +18,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/encouragement"
+            android:textSize="30sp"
+            android:textColor="@color/kurotya"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -25,6 +31,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/correct_rate"
+            android:textSize="30sp"
+            android:textColor="@color/kurotya"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -35,6 +45,10 @@
             android:layout_height="wrap_content"
             android:text=""
             android:id="@+id/rate"
+            android:textSize="50sp"
+            android:textColor="@color/kurotya"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -45,22 +59,47 @@
             android:layout_height="wrap_content"
             android:text=""
             android:id="@+id/sentence"
+            android:textSize="18sp"
+            android:textColor="@color/kurotya"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <jp.sai.ap_quizapp.PushButton
             android:id="@+id/redo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_redo"/>
+            android:text="@string/btn_redo"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/white"/>
 
-        <Button
+        <jp.sai.ap_quizapp.PushButton
             android:id="@+id/select_another"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_select_another"/>
+            android:text="@string/btn_select_another"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/white"/>
+
+        <jp.sai.ap_quizapp.PushButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_back"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 

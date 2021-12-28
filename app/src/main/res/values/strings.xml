@@ -4,20 +4,12 @@
     <string name="AP">応用情報技術者</string>
     <string name="kuizu_kind">略語クイズ</string>
     <string name="btn_start">スタート</string>
-    <string name="btn_rule">ルール</string>
-    <string name="btn_rule_text">ルール説明</string>
+    <string name="btn_about">アプリについて</string>
 
     <!-- Activity2 -->
     <string name="themes_choose">テーマ選択</string>
     <string name="next">次へ</string>
-    <string name="t1">基礎理論</string>
-    <string name="t2">アルゴリズム</string>
-    <string name="t3">ハードウエア</string>
-    <string name="t4">システム構成</string>
-    <string name="t5">ソフトウエア</string>
-    <string name="t6">データベース</string>
-    <string name="t7">ネットワーク</string>
-    <string name="t8">セキュリティ</string>
+
     <string name="t9">システム開発技術</string>
     <string name="t10">マネジメント</string>
     <string name="t11">ストラテジ</string>
@@ -27,9 +19,12 @@
 
     <!-- Activity4 -->
     <string name="encouragement">お疲れさまでした</string>
-    <string name="correct_rate">正解率</string>
+    <string name="correct_rate">正解率：</string>
     <string name="btn_redo">やり直し</string>
     <string name="btn_select_another">他のテーマへ</string>
+    <string name="btn_back">スタート画面へ</string>
+
+
 
 
 </resources>

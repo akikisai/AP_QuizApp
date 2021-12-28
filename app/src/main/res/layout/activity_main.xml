@@ -4,44 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/orenji"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/AP"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:src="@drawable/tora"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/kuizu_kind"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AP"
+            android:textSize="40sp"
+            android:textColor="@color/kurotya"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kuizu_kind"
+            android:textSize="30sp"
+            android:textColor="@color/kurotya"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <jp.sai.ap_quizapp.PushButton
             android:id="@+id/btn_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_start"/>
+            android:text="@string/btn_start"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/white" />
 
-        <Button
-            android:id="@+id/btn_rule"
+        <jp.sai.ap_quizapp.PushButton
+            android:id="@+id/btn_about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_rule"/>
-
+            android:text="@string/btn_about"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/white" />
 
 
     </LinearLayout>
